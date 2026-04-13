@@ -5,3 +5,9 @@
 !Build/**
 !TemplateData/
 !TemplateData/**
+!StreamingAssets/
+!StreamingAssets/**
+
+# macOS Finder (mora posle whitelist ! pravila)
+.DS_Store
+**/.DS_Store
