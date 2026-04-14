@@ -41,6 +41,8 @@
     <type fullname="UIInventorySlot" preserve="all" />
     <type fullname="UIItemFilterSlot" preserve="all" />
     <type fullname="UIItemTooltip" preserve="all" />
+    <type fullname="UILoadedContent" preserve="all" />
+    <type fullname="UILoadingIndicator" preserve="all" />
     <type fullname="UILobby" preserve="all" />
     <type fullname="UILobbyGameToPlay" preserve="all" />
     <type fullname="UILobbyGameToWatch" preserve="all" />
@@ -85,6 +87,7 @@
     <type fullname="HUDReferences" preserve="nothing" serialized="true" />
     <type fullname="MatchmakingModeKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="MatchmakingModeReferences" preserve="nothing" serialized="true" />
+    <type fullname="UILoadingContent" preserve="nothing" serialized="true" />
     <type fullname="EvaluationKeyPair" preserve="nothing" serialized="true" />
     <type fullname="StatusEffectSettings" preserve="nothing" serialized="true" />
   </assembly>
