@@ -2,6 +2,13 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="AITemplate" preserve="all" />
     <type fullname="AudioTemplate" preserve="all" />
+    <type fullname="BoardScreenFitter" preserve="all" />
+    <type fullname="BoardSkinTemplate" preserve="all" />
+    <type fullname="ChessBoard" preserve="all" />
+    <type fullname="ChessPieceIndicator" preserve="all" />
+    <type fullname="ChessSquareComponent" preserve="all" />
+    <type fullname="ContentFader" preserve="all" />
+    <type fullname="DestroySelf" preserve="all" />
     <type fullname="DispelByCaptureTemplate" preserve="all" />
     <type fullname="DispelByMovementTemplate" preserve="all" />
     <type fullname="EntitySpellTemplate" preserve="all" />
@@ -18,6 +25,9 @@
     <type fullname="OnUIElementClosed" preserve="all" />
     <type fullname="Playground" preserve="all" />
     <type fullname="ResurectionSpellTemplate" preserve="all" />
+    <type fullname="RotatingContentActivator" preserve="all" />
+    <type fullname="RotatingContentReparenter" preserve="all" />
+    <type fullname="RotatingContentRootChanger" preserve="all" />
     <type fullname="SacrificeTemplate" preserve="all" />
     <type fullname="SpellCast" preserve="all" />
     <type fullname="SpellClassTemplate" preserve="all" />
@@ -36,6 +46,7 @@
     <type fullname="UIGameWaiting" preserve="all" />
     <type fullname="UIHUD" preserve="all" />
     <type fullname="UIHUDFirstMove" preserve="all" />
+    <type fullname="UIHUDManaProgressBar" preserve="all" />
     <type fullname="UIHUDPlayer" preserve="all" />
     <type fullname="UIInventory" preserve="all" />
     <type fullname="UIInventorySlot" preserve="all" />
@@ -49,17 +60,16 @@
     <type fullname="UILocalGameCreation" preserve="all" />
     <type fullname="UILogIn" preserve="all" />
     <type fullname="UIMainMenu" preserve="all" />
+    <type fullname="UIManaChangeDisplay" preserve="all" />
     <type fullname="UIMatchFinder" preserve="all" />
     <type fullname="UIMatchSelection" preserve="all" />
     <type fullname="UIObserverMenu" preserve="all" />
     <type fullname="UIOnlineGameCreation" preserve="all" />
     <type fullname="UIOptions" preserve="all" />
     <type fullname="UIPiecePromotion" preserve="all" />
-    <type fullname="UIPlayerInfo" preserve="all" />
     <type fullname="UIPlayerRankSlot" preserve="all" />
     <type fullname="UIPostGame" preserve="all" />
     <type fullname="UIQuests" preserve="all" />
-    <type fullname="UIRanking" preserve="all" />
     <type fullname="UIRemovedPiece" preserve="all" />
     <type fullname="UIRequest" preserve="all" />
     <type fullname="UIRewards" preserve="all" />
@@ -79,6 +89,7 @@
     <type fullname="UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem" preserve="all" />
     <type fullname="UsableTemplate" preserve="all" />
     <type fullname="WinByForcedDrawTemplate" preserve="all" />
+    <type fullname="ChessPieceKeyPair" preserve="nothing" serialized="true" />
     <type fullname="SoundKeyPair" preserve="nothing" serialized="true" />
     <type fullname="TemplateSettings" preserve="nothing" serialized="true" />
     <type fullname="UsableItemSettings" preserve="nothing" serialized="true" />
@@ -88,6 +99,7 @@
     <type fullname="MatchmakingModeKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="MatchmakingModeReferences" preserve="nothing" serialized="true" />
     <type fullname="UILoadingContent" preserve="nothing" serialized="true" />
+    <type fullname="ParentChildKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="EvaluationKeyPair" preserve="nothing" serialized="true" />
     <type fullname="StatusEffectSettings" preserve="nothing" serialized="true" />
   </assembly>
@@ -106,6 +118,7 @@
     <type fullname="TMPro.TMP_Dropdown" preserve="all" />
     <type fullname="TMPro.TMP_FontAsset" preserve="all" />
     <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
@@ -114,7 +127,6 @@
     <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -150,10 +162,14 @@
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
     <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
@@ -169,10 +185,10 @@
     <type fullname="UnityEngine.UI.Slider" preserve="all" />
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
