@@ -76,6 +76,7 @@
     <type fullname="UIRewardSlot" preserve="all" />
     <type fullname="UIServer" preserve="all" />
     <type fullname="UIServerConnection" preserve="all" />
+    <type fullname="UIServerLoading" preserve="all" />
     <type fullname="UISpellClassSlot" preserve="all" />
     <type fullname="UISpellClassTooltip" preserve="all" />
     <type fullname="UISpellSelection" preserve="all" />
