@@ -97,6 +97,7 @@
     <type fullname="GameTimePreferenceKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="HUDPositionKeyPair" preserve="nothing" serialized="true" />
     <type fullname="HUDReferences" preserve="nothing" serialized="true" />
+    <type fullname="LobbyFilterKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="MatchmakingModeKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="MatchmakingModeReferences" preserve="nothing" serialized="true" />
     <type fullname="UILoadingContent" preserve="nothing" serialized="true" />
