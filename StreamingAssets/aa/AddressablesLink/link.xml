@@ -34,6 +34,9 @@
     <type fullname="SpellTemplate" preserve="all" />
     <type fullname="StatusEffectTemplate" preserve="all" />
     <type fullname="TrapTemplate" preserve="all" />
+    <type fullname="TutorialHand" preserve="all" />
+    <type fullname="TutorialTarget" preserve="all" />
+    <type fullname="TutorialTemplate" preserve="all" />
     <type fullname="UIAccountRegistration" preserve="all" />
     <type fullname="UIAlertPopup" preserve="all" />
     <type fullname="UIAreYouSurePopup" preserve="all" />
@@ -83,6 +86,8 @@
     <type fullname="UISpellSlot" preserve="all" />
     <type fullname="UISpellTooltip" preserve="all" />
     <type fullname="UITimerAlertPopup" preserve="all" />
+    <type fullname="UITutorial" preserve="all" />
+    <type fullname="UITutorialTooltip" preserve="all" />
     <type fullname="UIUsableItemTooltip" preserve="all" />
     <type fullname="UIUserButtons" preserve="all" />
     <type fullname="UIUserInfo" preserve="all" />
@@ -90,6 +95,7 @@
     <type fullname="UnityEngine.UI.Extensions.FantasyRPG.UIParticleSystem" preserve="all" />
     <type fullname="UsableTemplate" preserve="all" />
     <type fullname="WinByForcedDrawTemplate" preserve="all" />
+    <type fullname="TutorialSettings" preserve="nothing" serialized="true" />
     <type fullname="ChessPieceKeyPair" preserve="nothing" serialized="true" />
     <type fullname="SoundKeyPair" preserve="nothing" serialized="true" />
     <type fullname="TemplateSettings" preserve="nothing" serialized="true" />
