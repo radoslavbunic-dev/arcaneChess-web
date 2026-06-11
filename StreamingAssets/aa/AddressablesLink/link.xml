@@ -16,6 +16,7 @@
     <type fullname="EquipableTemplate" preserve="all" />
     <type fullname="GraveyardTemplate" preserve="all" />
     <type fullname="IndicatorsComponent" preserve="all" />
+    <type fullname="ItemTemplate" preserve="all" />
     <type fullname="ManaGainByCaptureTemplate" preserve="all" />
     <type fullname="ManaGainByConsecutiveSpellsTemplate" preserve="all" />
     <type fullname="ManaGainByFlankingTemplate" preserve="all" />
@@ -30,6 +31,7 @@
     <type fullname="RotatingContentReparenter" preserve="all" />
     <type fullname="RotatingContentRootChanger" preserve="all" />
     <type fullname="SacrificeTemplate" preserve="all" />
+    <type fullname="ShopItemTemplate" preserve="all" />
     <type fullname="SpellCast" preserve="all" />
     <type fullname="SpellClassTemplate" preserve="all" />
     <type fullname="SpellTemplate" preserve="all" />
@@ -83,7 +85,9 @@
     <type fullname="UIServerConnection" preserve="all" />
     <type fullname="UIServerLoading" preserve="all" />
     <type fullname="UIShop" preserve="all" />
-    <type fullname="UIShopCard" preserve="all" />
+    <type fullname="UIShopBundleCard" preserve="all" />
+    <type fullname="UIShopCosmetics" preserve="all" />
+    <type fullname="UIShopItemCard" preserve="all" />
     <type fullname="UISkinSelection" preserve="all" />
     <type fullname="UISpellClassSlot" preserve="all" />
     <type fullname="UISpellClassTooltip" preserve="all" />
