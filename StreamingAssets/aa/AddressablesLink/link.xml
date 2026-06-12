@@ -29,6 +29,7 @@
     <type fullname="ResurectionSpellTemplate" preserve="all" />
     <type fullname="RotatingContentActivator" preserve="all" />
     <type fullname="RotatingContentReparenter" preserve="all" />
+    <type fullname="RotatingContentRepositioner" preserve="all" />
     <type fullname="RotatingContentRootChanger" preserve="all" />
     <type fullname="SacrificeTemplate" preserve="all" />
     <type fullname="ShopItemTemplate" preserve="all" />
@@ -117,6 +118,7 @@
     <type fullname="MatchmakingModeReferences" preserve="nothing" serialized="true" />
     <type fullname="UILoadingContent" preserve="nothing" serialized="true" />
     <type fullname="ParentChildKeyValuePair" preserve="nothing" serialized="true" />
+    <type fullname="TransformPositionKeyValuePair" preserve="nothing" serialized="true" />
     <type fullname="EvaluationKeyPair" preserve="nothing" serialized="true" />
     <type fullname="StatusEffectSettings" preserve="nothing" serialized="true" />
   </assembly>
